@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  font-family:'Baskervville', serif;
+  color: #665775;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-size: 30px;
+  line-height: 15px;
+  color: #75C8AD;
+}
+
+h3 {
+  font-family: 'Baskervville', serif;
+}
+
+a {
+  color: #0A0835;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #2216ff;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  background-color: bisque;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px grey;
+  margin-bottom: 10px;
+}
+
+ul#horizontal-list {
+	min-width: 100px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
